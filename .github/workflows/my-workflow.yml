@@ -15,7 +15,6 @@ jobs:
       - name: ha-ha
         uses: ./.github/actions/joke-action
 
-    steps:
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
