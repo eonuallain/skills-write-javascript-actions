@@ -22,4 +22,4 @@ jobs:
 
       - name: Show default environment variables
         run: |
-          env
+          env | sort
